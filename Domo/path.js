@@ -1,0 +1,5 @@
+const path=require('path')
+console.log('File name',path.basename(__filename))
+console.log('Dor mame',path.dirname(__filename))
+console.log('File dir',path.extname(__filename))
+console.log('Parse: ',path.parse(__filename).name)

@@ -1,0 +1,8 @@
+const os=require('os')
+console.log('OS: ', os.platform())
+console.log('AP: ', os.arch())
+console.log('PI: ', os.cpus())
+console.log('FM: ', os.freemem())
+console.log('TM: ', os.totalmem())
+console.log('HD: ', os.homedir())
+console.log('UpTime: ', os.uptime())
