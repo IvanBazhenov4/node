@@ -26,7 +26,7 @@ const path=require('path')
       //     } )
       // }
      // res.end('<h1>Hellow Goward!!</h1>')
-        let filePath=path.join(__dirname,'publick',req.url === '/' ? 'index.html' : req.url)
+        let filePath=path.join(__dirname,'public',req.url === '/' ? 'index.html' : req.url)
         const ext= path.extname(filePath)
         let contentType='text/html'
         switch (ext){
